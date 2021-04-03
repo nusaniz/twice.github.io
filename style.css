@@ -2,10 +2,13 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
     font-family: Lato, sans-serif;
+    background-color: none;
+    /* background: none; */
 }
 
 body::before {
@@ -20,10 +23,28 @@ height: 100%;
 z-index: -1;
 }
 
+.navbar {
+    width: 100%;
+    position: sticky;
+    /* border: 1px solid; */
+    top: 0;
+    left: 0;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    font-family: inherit;
+}
+
+.body2 {
+    padding: 0.5rem;
+}
+
 h1 {
     color: white;
     text-align: center;
-    margin: 2.7rem 0 0 0;
+    margin: 1.7rem 0 0 0;
 }
 
 h3 {
